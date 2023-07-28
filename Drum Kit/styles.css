@@ -1,82 +1,58 @@
-body {
-  text-align: center;
-  background-color: #283149;
+body{
+    background-color: #283149;
+    text-align: center;
+}
+.title{
+    font-family: 'Arvo', cursive;
+    font-size: 3.5rem;
+    color:#EEE;
+    text-shadow: 3px 0 #DA0463;
 }
 
-h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
-
-}
-
-footer {
+footer{
   color: #DBEDF3;
   font-family: sans-serif;
+  margin-top: 9rem;
 }
-
-.t
-{
+.set{
+    display: inline-block;
+    margin:5% auto;
+    font-size: 2em;
+}
+.drum{
+    height:140px;
+    width:140px;
+    font-size: 4rem;
+    font-weight: bold;
+    color:rgb(221, 97, 97);
+    text-shadow: 3px 0 #eeeeeeb5;
+    border-radius: 10% ;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.542);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pressed{
+    box-shadow:0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+.w{
   background-image: url(./images/tom1.png);
 }
-
-.a {
-  background-image: url(./images/tom2.png);
+.a{
+    background-image: url(./images/tom2.png);
 }
-
-.n {
-  background-image: url(./images/tom3.png);
+.s{
+    background-image: url(./images/tom3.png);
 }
-
-.g {
-  background-image: url(./images/tom4.png);
+.d{
+    background-image: url(./images/tom4.png);
 }
-
-.l {
-background-image: url(./images/snare.png);
+.j{
+    background-image: url(./images/snare.png);
 }
-
-.e {
-  background-image: url(./images/kick.png);
+.k{
+    background-image: url(./images/crash.png);
 }
-
-.d {
-  background-image: url(./images/crash.png);
-}
-
-.set {
-  margin: 10% auto;
-}
-
-.game-over {
-  background-color: red;
-  opacity: 0.8;
-}
-
-.pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
-}
-
-.red {
-  color: red;
-}
-
-.drum {
-  outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
-  font-family: 'Arvo', cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #63f0fa;
-  text-shadow: 3px 0 #111111;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
+.l{
+    background-image: url(./images/kick.png);
 }
